@@ -199,7 +199,11 @@ nav a:hover { color: var(--rose); }
 
 /* ===== SECTIONS ===== */
 .section { padding: 72px 24px; }
-.section:nth-child(even) { background: var(--blush); }
+.categories { background: var(--white); }
+.jewellery { background: linear-gradient(135deg, #fff8ee 0%, #fff 100%); }
+.why-us { background: var(--blush); }
+.insta-strip { background: var(--blush); }
+.contact { background: var(--white); }
 
 .section-header { text-align: center; margin-bottom: 48px; }
 .section-header h2 {
@@ -374,7 +378,6 @@ nav a:hover { color: var(--rose); }
 .benefit-item small { font-size: 0.8rem; color: rgba(255,255,255,0.55); }
 
 /* ===== JEWELLERY ===== */
-.jewellery { background: linear-gradient(135deg, #fff8ee 0%, #fff 100%); }
 
 .jewellery-inner {
   display: grid;
